@@ -1,0 +1,198 @@
+.header-area {
+    background: rgb(8, 209, 199);
+    padding: 10px 0;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner-area  start css */
+.banner-area {
+
+}
+.banner-items img {
+    width: 100%;
+}
+
+/* banner area end  */
+
+/* tomis area start  */
+.tomis-area {
+    background-color: rgb(245, 160, 14);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.tomis-items {
+    width: 46%;
+    background: rgb(235, 10, 235);
+    padding: 20px 30px;
+    border-left: 2px solid rgb(249, 205, 198);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.tomis-items i {
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.tomis-wrap {
+    width: 46%;
+    background: rgb(22, 245, 100);
+    padding: 20px 30px;
+    border-right: 2px solid rgb(249, 205, 198);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.tomis-wrap i {
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+/* tomis area end */
+
+/* country css start  */
+.our-country-flag {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgb(200, 196, 196);
+}
+.flag {
+    width: 400px;
+    height: 240px;
+    background-color: green;
+    margin: 0 auto;
+    position: relative;
+}
+.bd {
+    background: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+.tittle {
+    margin-top: 30px;
+}
+
+
+.flags {
+    background-color: #fff;
+    width: 400px;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+}
+.eng {
+    /* background: red; */
+    vertical-align: middle;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 100px ;
+}
+.bt {
+    background: red;
+    height: 15px;
+    display: block;
+}
+.bt::before {
+    content: '';
+    width: 15px;
+    height: 240px;
+    left: 65%;
+    top: 0;
+    position: absolute;
+    background: red;
+    display: block;
+}
+
+
+/* //flagsr /// */
+.flagsr {
+    background-color: #fff;
+    width: 400px;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid #333;
+}
+
+/* german start css */
+.box {
+    background: #fff;
+    width: 400px;
+    height: 240px;
+    margin: 0 auto;
+}
+.gr {
+    padding: 40px 0;
+    background: #000;
+}
+.gm {
+    padding: 40px 0;
+    background: red;
+}
+.gn {
+    padding: 40px 0;
+    background: yellow;
+}
+h2 {
+    margin-top: 20px;
+}
+.tittle h2 {
+    padding-bottom: 20px;
+}
+
+.footer-area {
+    background: rgb(148, 103, 236);
+    padding: 20px 0;
+}
+/* country css end */
